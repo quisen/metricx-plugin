@@ -1,0 +1,22 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "metricx",
+  "owner": {
+    "name": "Baldussi",
+    "url": "https://metricx.baldussi.com.br"
+  },
+  "metadata": {
+    "description": "Plugins oficiais do MetricX (métricas de call center)",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "metricx",
+      "source": "./plugins/metricx",
+      "description": "Consulte chamadas, indicadores de atendimento, notas de qualidade e transcrições do MetricX com as permissões do seu usuário.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "keywords": ["call center", "telefonia", "métricas", "atendimento", "transcrições"]
+    }
+  ]
+}

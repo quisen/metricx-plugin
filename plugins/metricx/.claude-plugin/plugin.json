@@ -1,0 +1,22 @@
+{
+  "name": "metricx",
+  "displayName": "MetricX",
+  "version": "1.0.0",
+  "description": "Consulte chamadas, indicadores de atendimento, notas de qualidade e transcrições do MetricX, somente leitura e com as permissões do seu usuário.",
+  "author": {
+    "name": "Baldussi",
+    "url": "https://metricx.baldussi.com.br"
+  },
+  "homepage": "https://metricx.baldussi.com.br",
+  "license": "Proprietary",
+  "keywords": [
+    "call center",
+    "telefonia",
+    "métricas",
+    "atendimento",
+    "transcrições",
+    "qualidade"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills"
+}

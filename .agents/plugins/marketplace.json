@@ -1,0 +1,20 @@
+{
+  "name": "metricx",
+  "interface": {
+    "displayName": "MetricX"
+  },
+  "plugins": [
+    {
+      "name": "metricx",
+      "source": {
+        "source": "local",
+        "path": "./plugins/metricx"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

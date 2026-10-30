@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "metricx": {
+      "type": "http",
+      "url": "https://api-metricx.baldussi.com.br/mcp"
+    }
+  }
+}

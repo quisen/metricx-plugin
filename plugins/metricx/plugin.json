@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "metricx",
+  "version": "1.0.0",
+  "description": "Consulte chamadas, indicadores de atendimento, notas de qualidade e transcrições do MetricX, somente leitura e com as permissões do seu usuário.",
+  "author": {
+    "name": "Baldussi",
+    "url": "https://metricx.baldussi.com.br"
+  },
+  "homepage": "https://api-metricx.baldussi.com.br/agente-mcp/documentacao",
+  "license": "Proprietary",
+  "keywords": [
+    "call center",
+    "telefonia",
+    "métricas",
+    "atendimento",
+    "transcrições",
+    "qualidade"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "MetricX",
+        "shortDescription": "Métricas de call center no seu agente",
+        "longDescription": "Consulte chamadas, indicadores de atendimento, notas de qualidade geradas por IA e transcrições do MetricX em linguagem natural ou SQL. Somente leitura, com as permissões do seu usuário do MetricX (empresa, departamentos e ramais).",
+        "developerName": "Baldussi",
+        "category": "Productivity",
+        "capabilities": [
+          "Read"
+        ],
+        "websiteURL": "https://api-metricx.baldussi.com.br/agente-mcp/documentacao",
+        "defaultPrompt": "Quais foram os indicadores de atendimento desta semana por departamento?",
+        "brandColor": "#F97316",
+        "logo": "./assets/icon.svg",
+        "privacyPolicyURL": "https://api-metricx.baldussi.com.br/legal/privacidade",
+        "termsOfServiceURL": "https://api-metricx.baldussi.com.br/legal/termos"
+      }
+    }
+  }
+}
